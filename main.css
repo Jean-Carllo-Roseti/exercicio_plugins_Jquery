@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formCampo {
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Alterado para exibir rótulos acima dos campos */
+    margin-bottom: 10px; /* Espaço entre campos */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da container para ocupar toda a altura da tela */
+}
+
+button {
+    margin-top: 10px;
+}

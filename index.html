@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forulario Jquery</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro</h1>
+        </header>
+        <form>
+            <div class="formCampo">
+                <label>Nome</label>
+                <input type="text" placeholder="Nome completo" name="nome" >
+            </div>
+            <div class="formCampo">
+                <label>CPF</label>
+                <input type="text" name="cpf"  id="cpf" >
+            </div>
+            <div class="formCampo">
+                <label>Telefone</label>
+                <input type="tel" name="telefone" id="telefone" >
+            </div>
+            <div class="formCampo">
+                <label>E-mail</label>
+                <input type="text" name="eMail"  >
+            </div>
+            <div class="formCampo">
+                <label>CEP</label>
+                <input type="text" id="cep" name="cep" >
+            <div class="formCampo" >
+                <label>Endereço</label>
+                <input type="text" name="end" id="end" >
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
